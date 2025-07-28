@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pagina Prueba 1</title>
+  </head>
+  <body>
+    <h1>Clase Desarrollo Web</h1>
+    <hr />
+    <div id="Índice">
+      <h1>Índice</h1>
+      <hr />
+      <ol>
+        <li><a href="#PARRAFO1">Parrafo I</a></li>
+        <li><a href="#PARRAFO2">Parrafo II</a></li>
+        <li><a href="#foto01">Foto I</a></li>
+        <li><a href="#foto02">Foto II</a></li>
+        <li><a href="#tabla01">tabla I</a></li>
+      </ol>
+    </div>
+    <hr />
+    <article id="PARRAFO1">
+      <h1>PARRAFO I</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique
+        voluptatum autem sequi. Nisi inventore praesentium odio quaerat maxime
+        quidem quisquam, tempora neque asperiores magnam similique maiores iusto
+        alias magni. Provident.
+      </p>
+
+      <hr />
+    </article>
+    <article id="PARRAFO2">
+      <h1>PARRAFO II</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique
+        voluptatum autem sequi. Nisi inventore praesentium odio quaerat maxime
+        quidem quisquam, tempora neque asperiores magnam similique maiores iusto
+        alias magni. Provident.
+      </p>
+      <a href="#">volver al índice</a>
+      <hr />
+    </article>
+    <article id="PARRAFO3">
+      <h1>PARRAFO III</h1>
+      <b
+        ><p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae
+          atque quos perferendis aspernatur, earum placeat cupiditate totam
+          veritatis nam? Harum, esse sit praesentium porro, culpa fuga similique
+          labore quod ipsam dolorem itaque numquam nobis incidunt velit dolores
+          sequi quasi assumenda amet laboriosam cupiditate voluptatibus. Eum
+          rerum officia illo quam veritatis.
+        </p></b
+      >
+    </article>
+    <a href="#">volver al índice</a>
+    <hr />
+    <article id="foto01">
+      <img
+        src="https://picsum.photos/500/300"
+        alt="foto aleatoria"
+        width="100"
+        height="100"
+      />
+    </article>
+    <article id="foto02">
+      <img
+        src="https://picsum.photos/500/200"
+        alt="foto aleatoria"
+        width="100"
+        height="100"
+      />
+      <hr />
+    </article>
+    <article id="listas">
+      <ol>
+        <li>Lista Ordenada 1</li>
+        <li>Lista Ordenada 2</li>
+        <li>Lista Ordenada 3</li>
+        <li>Lista Ordenada 4</li>
+      </ol>
+      <ul>
+        <li>Lista Ordenada 1</li>
+        <li>Lista Ordenada 2</li>
+        <li>Lista Ordenada 3</li>
+        <li>Lista Ordenada 4</li>
+      </ul>
+
+      <a href="#">volver al índice</a>
+      <hr />
+    </article>
+    <article>
+      <ul>
+        <li>
+          Deportes
+          <ul>
+            <li>Fútbol</li>
+            <li>Baloncesto</li>
+            <li>Natación</li>
+          </ul>
+        </li>
+        <li>
+          Comida
+          <ul>
+            <li>Frutas</li>
+            <li>Verduras</li>
+            <li>Cereales</li>
+          </ul>
+        </li>
+      </ul>
+    </article>
+
+
+    <article id="tabla01">
+      <table border="1">
+        <caption>tabla I</caption>
+        <thead>
+        <tr>
+          <th>Nombre</th>
+          <th>Cargo</th>
+          <th>Capital</th>
+          </thead>
+          <tbody>
+        </tr>
+        <tr>
+          <td>Ana López</td>
+          <td>Directora</td>
+          <td>50000</td>
+        </tr>
+        <tr>
+          <td>Juan Pérez</td>
+          <td>Jefe de Proyectos</td>
+              <td>50000</td>
+        </tr>
+        <tr>
+          <td>María Gómez</td>
+          <td>Asistente</td>
+              <td>50000</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <td colspan="2">Asignado</td>
+            <td >1500000</td>
+        </tr>
+    <th colspan="3">Datos </th>
+    </tfoot>
+      </table>
+    </article>
+
+
+    <br />
+    <article>
+      <table border="1">
+        <tr>
+          <th colspan="2">Datos personales</th>
+        </tr>
+        <tr>
+          <td rowspan="2">Nombre</td>
+          <td>Ana López</td>
+        </tr>
+        <tr>
+          <td>Juan Pérez</td>
+        </tr>
+      </table>
+    </article>
+    <br />
+    <article>
+      <hr />
+      <form>
+        <br />
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" /><br /><br />
+
+        <label for="correo">Correo electrónico:</label>
+        <input type="email" id="correo" name="correo" /><br /><br />
+
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje"></textarea><br /><br />
+      </form>
+      <hr />
+    </article>
+    <article>
+        <label for="clave">Contraseña:</label>
+        <input type="password" id="clave" name="clave"><br><br>
+
+        <label for="edad">Edad:</label>
+        <input type="number" id="edad" name="edad"><br><br>
+
+        <label for="fecha">Fecha de nacimiento:</label>
+        <input type="date" id="fecha" name="fecha"><br><br>
+
+        <input type="checkbox" id="acepto" name="acepto">
+        <label for="acepto">Acepto términos y condiciones</label>
+    </article>
+    <br>
+    <article>
+        <input type="submit" value="Enviar formulario">
+        <input type="reset" value="Limpiar formulario">
+    </article>
+    <br>
+    <article>
+        <video src="https://youtu.be/caiHvJbLC-w?si=CD0xnFPMQMXcKh32" controls>
+            Tu navegador no soporta la etiqueta video.
+        </video>
+
+        <audio src="audio.mp3" controls>
+            Tu navegador no soporta la etiqueta audio.
+        </audio>
+        <div style="background-color:#eee; padding:10px;">
+            <p>Este es un <span style="color:red;">texto destacado</span> dentro de un bloque.</p>
+        </div>
+    </article>
+  </body>
+</html>
